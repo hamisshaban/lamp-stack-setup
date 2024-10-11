@@ -15,4 +15,13 @@ sudo apt install -y apache2 -y
 ```bash
 sudo systemctl status apache2
 ```
+## 3. Installed MariaDB for databse management
+```bash
+sudo apt install mysql-server -y
+```
+- Ensuring a secured root password is properly configured
+```bash
+sudo mysql_secure_installation
+```
 
+## 4.
