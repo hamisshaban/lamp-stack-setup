@@ -32,3 +32,5 @@ sudo apt install php libapache2-mod-php php-mysql -y
 - add some PHP code content
 - Navigating to the this URL on browser the content seems visible
 
+# screenshots
+![APache testing](./image/apche.png)
