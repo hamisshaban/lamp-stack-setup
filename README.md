@@ -32,5 +32,27 @@ sudo apt install php libapache2-mod-php php-mysql -y
 - add some PHP code content
 - Navigating to the this URL on browser the content seems visible
 
+# Configuration and testing
+## 1. Entered the shell of MariaDb using
+```
+sudo mysql -u root -p
+```
+## 2. I created a database using
+```
+CREATE DATABASE sample_db;
+USE sample_db;
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100)
+);
+```
+## 3. Added sample data
+```
+INSERT INTO users (name, email) VALUES ('John salim', 'john@example.com');
+INSERT INTO users (name, email) VALUES ('Jane Manyai', 'jane@example.com');
+```
+
+
 # screenshots
 ![APache testing](./image/apche.png)
