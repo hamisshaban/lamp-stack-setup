@@ -24,4 +24,11 @@ sudo apt install mysql-server -y
 sudo mysql_secure_installation
 ```
 
-## 4.
+## 4. PHP installation with Apache connection
+```
+sudo apt install php libapache2-mod-php php-mysql -y
+```
+- I have created a PHP file named Info.php
+- add some PHP code content
+- Navigating to the this URL on browser the content seems visible
+
