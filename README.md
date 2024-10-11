@@ -56,3 +56,6 @@ INSERT INTO users (name, email) VALUES ('Jane Manyai', 'jane@example.com');
 
 # screenshots
 ![APache testing](./image/apche.png)
+
+### screenshot of the PHP script
+![PHP script](./image/codesnapshot.png)
